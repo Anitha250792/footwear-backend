@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.mo
+*.pot
+
+# Migrations (optional, but usually keep them tracked once stable)
+# */migrations/
