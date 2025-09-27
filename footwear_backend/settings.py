@@ -13,12 +13,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure--pxyrjhd5s9&l62ekui3mxs!eolp0ezbi6mdy4)+e*$px(grt#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-if os.getenv("RENDER"):
-    ALLOWED_HOSTS = ["shoe-backend-jbhb.onrender.com"]
-else:
-    ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
