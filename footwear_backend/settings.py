@@ -53,6 +53,7 @@ ROOT_URLCONF = 'footwear_backend.urls'
 
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173", 
     "https://footwear-frontend-two.vercel.app"
 ]
 
